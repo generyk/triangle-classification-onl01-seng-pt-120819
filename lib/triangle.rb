@@ -22,10 +22,9 @@ class Triangle
     end
   end 
   
-    class TriangleError < StandardError
-      def noSizeError
-        puts "My awesome custom error message"
-      end
-    end 
-# binding.pry
+  class TriangleError < StandardError
+    def noSizeError
+      puts "ERROR ERROR ERROR"
+    end
+  end 
 end
